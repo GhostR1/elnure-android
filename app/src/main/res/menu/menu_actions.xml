@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_students"
+        android:title="@string/all_students" />
+
+    <item android:id="@+id/menu_lecturers"
+        android:title="@string/all_lecturers" />
+
+    <item android:id="@+id/menu_new_server"
+        android:title="@string/transit_to_new_server" />
+
+    <item android:id="@+id/menu_logout"
+        android:title="@string/logout" />
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar"/>
+
+    <EditText
+        android:id="@+id/et_new_provider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_a_new_server"
+        android:layout_margin="20dp"
+        android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/btn_transition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="60dp"
+        android:text="@string/submit"
+        android:background="@drawable/btn_login"/>
+
+</LinearLayout>
